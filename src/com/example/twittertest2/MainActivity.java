@@ -26,6 +26,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         
+        // •ÊƒXƒŒƒbƒh‚¶‚á‚È‚¢‚Æ‚¨‚±
        	ArrayList<Status> list = parseTimeline();
        	for(int i = 0; i < list.size(); i++){
        		TableLayout container = (TableLayout)findViewById(R.id.container); 
